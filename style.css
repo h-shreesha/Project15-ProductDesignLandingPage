@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+:root {
+    --bg-dark: #111111;
+    --red: #eb0000;
+    --white: #fff;
+    --black-light: #181818;
+    --black-lighter: #353535;
+}
+
+body{
+    font-family: 'Montserrat';
+    background-color: #000;
+    color: var(--white);
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    justify-content: space-between;
+    padding-left: 5rem;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    align-items: center;
+}
+
+.list{
+    display: flex;
+    list-style-type: none;
+    gap: 5rem;
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.section img{
+    width: 500px;
+}
+
+.section-right{
+    margin-top: 2rem;
+    color: #fff;
+} 
+
+.section-right h2{
+    margin-top: 6rem;
+    font-size: 1rem;
+    color: var(--red);
+}
+
+.section-right h1{
+    margin-top: 10px;
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
+
+.section-right p{
+    margin-bottom: 1rem;
+}
+
+.section-right button{
+    padding: 0.5rem 1rem;
+    background-color: var(--red);
+    color: var(--white);
+}
+
+.section1{
+    position: relative;
+}
+
+.section1-container{
+    position: relative;
+    width: 50%;
+    height: 800px;
+    background-color: var(--black-light);
+}
+
+.section1-top{
+    display: flex;
+    position: absolute;
+    right: -30rem;
+    top: 6rem;
+    gap: 2rem;
+}
+
+.section1-card{
+    padding: 2rem;
+    background-color: var(--black-lighter);
+}
+.section1-card img{
+    width: 50px;
+    margin-bottom: 1rem;
+}
+
+.section1-card h2{
+    margin-bottom: 1rem;
+}
+
+.section1-card p{
+    margin-bottom: 1rem;
+}
+
+.section1-card h6{
+    color: var(--red);
+}
+
+.section1-card2{
+    background-color: var(--red);
+}
+
+.section1-card2 h6{
+    color: var(--white);
+}
+
+.section1-card3 h2{
+    margin-top: 0.5rem;
+}
+
+.section1-bottom{
+    display: flex;
+    position: absolute;
+    right: -45rem;
+    left: 30rem;
+    top: 25rem;
+    align-items: center;
+    gap: 3rem;
+}
+
+.section1-bottom-left{
+    text-align: center;
+    position: relative;
+    left: -3rem;
+}
+
+.section1-bottom-left h1{
+    font-size: 4rem;
+    font-weight: 800;
+    color: var(--red);
+}
+
+.section1-bottom-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 6rem;
+    position: relative;
+    left: -7rem;
+    top: 2rem;
+}
+
+.section1-bottom-right-cards{
+    padding: 40px;
+    text-align: center;
+    background-color: var(--black-lighter);
+}
+
+.section1-bottom-right-cards h2{
+    color: var(--red);
+}
+
+.section1-bottom-right-cards1{
+    padding: 40px 90px ;
+    /* position: absolute; */
+    margin-left: 1.5rem;
+}
+
+.section1-bottom-right-cards2{
+    position: relative;
+    left: -4rem;
+}
+
+.section1-bottom-right-cards3{
+    position: relative;
+    top: -4rem;               ;
+    left: 0.8rem;  ;
+}
+
+.section1-bottom-right-cards4{
+    padding: 40px 70px 40px 50px;
+    position: relative;
+    left: -3.3rem;
+    top: -4rem;
+}
+
+.section2{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    align-items: center;
+}
+
+.section2-left {
+    margin-bottom: 1rem;
+    position: relative;
+    left: -6rem;
+}
+
+.section2-left h1{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.section2 button{
+    padding: 0.5rem 1rem;
+    position: relative;
+    left: 3rem;
+    background-color: var(--red);
+    color: var(--white);
+}
+
+.section3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.section3-img-wrapper img{
+    width: 450px;
+    padding: 3rem 1rem;
+    background-color: var(--black-lighter);
+}
+
+.section3-img-wrapper3 img{
+    width: 430px;
+    padding: 2rem 1rem;
+}
+
+.section3-container h3{
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 1000;
+}
+
+.section3-container p{
+    font-size: 0.7rem;
+    color: var(--red);
+}
+
+.section4{
+    margin-top: 3rem;
+    padding: 2rem 1rem;
+    position: relative;
+}
+
+.section4-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    position: absolute;
+    left: 18rem;
+    padding: 3rem 2rem;
+    background-color: var(--black-lighter);
+}
+
+.section4-btn button{
+    padding: 0.5rem 1rem;
+    color: var(--white);
+    background-color: var(--red);
+    border: none;
+}
+
+.section4-left h1{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.section5{
+    position: relative;
+}
+
+.section5-list{
+    position: absolute;
+    top: 15rem;
+    left: 30rem;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 3rem;
+}
+
+.footer{
+    position: relative;
+}
+
+.footer-container{
+    margin-top: 20rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    padding-left: 3rem;
+    display: flex;
+    align-items: center;
+    background-color: var(--black-lighter);
+}
+
+.social-icon{
+    position: relative;
+    left: 29rem;
+}
+
+.social-icon1{
+    padding-right: 2rem;
+}
