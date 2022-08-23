@@ -13,6 +13,7 @@ Here's the Live Deployed Website of ![Project15Badge](https://img.shields.io/bad
 - I got to learn about the positioning of containers. 
 - Got to learn about the flexbox.
 - Got to learn more about beautifying of buttons.
+- The ebsite is also responsive.
 
 
-## Time taken to complete project is 5 hours
+## Time taken to complete project is 5.5 hours
