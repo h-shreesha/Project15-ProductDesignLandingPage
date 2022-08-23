@@ -223,9 +223,10 @@ body{
 
 .section3{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: 8rem;
     flex-wrap: wrap;
 }
 
@@ -315,4 +316,55 @@ body{
 
 .social-icon1{
     padding-right: 2rem;
+}
+
+@media screen and (max-width: 1123px) {
+    .logo{
+        width: 100px;
+        margin-left: -2rem;
+    }
+
+    .list{
+        display: flex;
+        position: relative;
+        left: -10rem;
+    }
+
+    .section img{
+        width: 400px;
+    }
+
+    .section-right h2{
+        font-size: 1rem;
+    }
+
+    .section-right h1{
+        font-size: 1.5rem;
+    }
+
+    .section1-top{
+        position: absolute;
+        left: 1.5rem;
+    }
+
+    .section1-bottom{
+        position: absolute;
+        left: 2rem;
+    }
+
+    .section1-bottom-right-cards3{
+        position: relative;
+        top: 10rem;
+        left: -41.5rem;
+    }
+
+    .section4-container{
+        position: absolute;
+        left: 5rem;
+    }
+
+    .section5-list{
+        position: absolute;
+        left: 10rem;
+    }
 }
